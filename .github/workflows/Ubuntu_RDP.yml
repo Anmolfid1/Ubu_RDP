@@ -44,12 +44,12 @@ jobs:
         shell: bash
 
     steps:
-      - name: Cleanup Junk
-        run: |
-          curl -L -o Cleanup.sh \
-              https://raw.githubusercontent.com/Anmolfid1/Ubu_RDP/main/Cleanup.sh
-          chmod +x Cleanup.sh
-          ./Cleanup.sh
+      # - name: Cleanup Junk
+      #   run: |
+      #     curl -L -o Cleanup.sh \
+      #         https://raw.githubusercontent.com/Anmolfid1/Ubu_RDP/main/Cleanup.sh
+      #     chmod +x Cleanup.sh
+      #     ./Cleanup.sh
 
       - name: Create Server
         run: |
